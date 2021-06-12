@@ -1,0 +1,54 @@
+body {
+    background-image: url("../images/aquarium.jpg");
+    background-size: cover;
+}
+
+img {
+    position: fixed;
+}
+
+#fish1Id {
+    left: 250px;
+    top: 250px;
+    width: 250px;
+    height: 250px;
+}
+
+#fish2Id {
+    left: 500px;
+    top: 250px;
+    width: 150px;
+    height: 150px;
+}
+
+.bubbleClass {
+    width: 100px;
+    height: 100px;
+}
+
+#seaHorse {
+    left: 1000px;
+    top: 50px;
+    width: 100px;
+    height: 150px;
+}
+
+#string {
+    left: -118px;
+    bottom: 450px;
+    height: 400px;
+
+}
+
+@media only screen and (min-width: 1400px) {
+    #string {
+        bottom: 850px;
+    }
+  }
+
+  @media only screen and (min-width: 530px) {
+    #string {
+        top: -150px;
+    }
+  }
+
